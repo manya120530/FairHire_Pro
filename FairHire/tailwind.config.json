@@ -1,0 +1,47 @@
+{
+  "content": [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}"
+  ],
+  "theme": {
+    "extend": {
+      "colors": {
+        "primary": {
+          "50": "#e6f4ff",
+          "100": "#b3e0ff",
+          "200": "#80ccff",
+          "300": "#4db8ff",
+          "400": "#1aa3ff",
+          "500": "#008ae6",
+          "600": "#006bb3",
+          "700": "#004c80",
+          "800": "#002d4d",
+          "900": "#00151f"
+        },
+        "secondary": {
+          "50": "#fff0f6",
+          "100": "#ffd6e8",
+          "200": "#ffadd0",
+          "300": "#ff85b8",
+          "400": "#ff5ca0",
+          "500": "#e64487",
+          "600": "#b32f67",
+          "700": "#802147",
+          "800": "#4d1427",
+          "900": "#1f070f"
+        }
+      },
+      "spacing": {
+        "128": "32rem",
+        "144": "36rem"
+      },
+      "borderRadius": {
+        "4xl": "2rem"
+      }
+    }
+  },
+  "plugins": [
+    "@tailwindcss/forms",
+    "@tailwindcss/typography"
+  ]
+}
